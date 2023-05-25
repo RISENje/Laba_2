@@ -1,20 +1,20 @@
 echo off
-md Korobko
-cd Korobko
-md Aleksey
-md Antonovich
+md Pirozhkova
+cd Pirozhkova
+md Elizaveta
+md Aleksandrovna
 pause
 echo > 05062001.txt
-cd Antonovich
+cd Aleksandrovna
 echo > computer_011.txt
 pause
 cd ..
 cd ..
-del Korobko /S /Q /F
+del Pirozhkova /S /Q /F
 pause
-cd Korobko
-rd Antonovich
-rd Aleksey
+cd Pirozhkova
+rd Aleksandrovna
+rd Elizaveta
 cd ..
-rd Korobko
+rd Pirozhkova
 pause
